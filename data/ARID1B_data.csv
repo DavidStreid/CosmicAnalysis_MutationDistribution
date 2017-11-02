@@ -1,0 +1,464 @@
+Gene name,Accession Number,Gene CDS length,HGNC ID,Sample name,ID_sample,ID_tumour,Primary site,Site subtype 1,Site subtype 2, Site subtype 3, Primary histology, Histology subtype 1, Histology subtype 2, Histology subtype 3, Genome-wide screen, Mutation ID, Mutation CDS, Mutation AA, Mutation Description, Mutation zygosity, LOH, GRCh, Mutation genome position, Mutation strand, SNP, Resistance Mutation, FATHMM prediction, FATHMM score, Mutation somatic status, Pubmed_PMID, ID_STUDY, Sample source, Tumour origin, Age
+ARID1B,ENST00000275248,6696,18040,PD4882a,1446151,1370394,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,primary,60
+ARID1B,ENST00000275248,6696,18040,DM93,2466886,2329717,skin,head_neck,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,79
+ARID1B,ENST00000275248,6696,18040,Co74,1235039,1146825,large_intestine,colon,sigmoid,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,metastasis,35
+ARID1B,ENST00000275248,6696,18040,Co94,1235053,1146839,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,metastasis,46
+ARID1B,ENST00000275248,6696,18040,DM6,2466879,2329710,skin,face,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5611228,c.3886_3887CC>TT,p.P1296F,Substitution - Missense,,u,38,6:157196242-157196243,+,,-,,,Variant of unknown origin,26343386,,surgery-fixed,NS,62
+ARID1B,ENST00000275248,6696,18040,653826,2485073,2347773,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,59,2222646,2090628,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,1185828,2485093,2347793,central_nervous_system,brain,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,COSM5702544,c.3291+1G>A,p.?,Unknown,,u,38,6:157181179-157181179,+,n,-,PATHOGENIC,0.97491,Confirmed somatic variant,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,SH-9771,2371747,2234541,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,DM8,2466885,2329716,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607870,c.2456C>T,p.P819L,Substitution - Missense,,u,38,6:157148741-157148741,+,n,-,PATHOGENIC,0.8722,Variant of unknown origin,26343386,,surgery-fixed,NS,81
+ARID1B,ENST00000275248,6696,18040,SDC19,2564883,2426277,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,28,2222627,2090609,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,78,2222660,2090642,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB108C,1512939,1435623,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,cell-line,NS,
+ARID1B,ENST00000275248,6696,18040,93,2222674,2090656,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13775a,1914156,1802423,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,79
+ARID1B,ENST00000275248,6696,18040,BB3T,1235090,1146876,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,56
+ARID1B,ENST00000275248,6696,18040,305517,2485056,2347756,soft_tissue,blood_vessel,NS,NS,angiosarcoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,20,2222621,2090603,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,BB32T,1235112,1146898,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,52
+ARID1B,ENST00000275248,6696,18040,89,2222670,2090652,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,69,2222653,2090635,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13799a,1914438,1802564,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,51
+ARID1B,ENST00000275248,6696,18040,Hx185,1235067,1146853,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,39
+ARID1B,ENST00000275248,6696,18040,223202,2485053,2347753,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,PD13802a,1914468,1802579,breast,NS,NS,NS,carcinoma,HER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,68
+ARID1B,ENST00000275248,6696,18040,MB119PT,1512946,1435630,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,large_cell,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,5
+ARID1B,ENST00000275248,6696,18040,Br23X,1312981,1223890,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,78
+ARID1B,ENST00000275248,6696,18040,552818,2485070,2347770,central_nervous_system,brain,NS,NS,other,neoplasm,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,SH-7329,2371743,2234537,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG43C,2321270,2186424,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,66
+ARID1B,ENST00000275248,6696,18040,PD4880a,1446145,1370388,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,primary,80
+ARID1B,ENST00000275248,6696,18040,DM58,2466877,2329708,skin,face,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,68
+ARID1B,ENST00000275248,6696,18040,MB115PT,1512943,1435627,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,5
+ARID1B,ENST00000275248,6696,18040,Pa21C,1509862,1432728,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,primary,54
+ARID1B,ENST00000275248,6696,18040,S00833,1759198,1663946,lung,NS,NS,NS,carcinoma,small_cell_carcinoma,NS,NS,n,COSM309266,c.2493T>A,p.A831A,Substitution - coding silent,,u,38,6:157148778-157148778,+,n,-,NEUTRAL,0.21357,Reported in another cancer sample as somatic,22941188,,fresh/frozen - NOS,NS,77
+ARID1B,ENST00000275248,6696,18040,PD13776a,1914168,1802429,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,55
+ARID1B,ENST00000275248,6696,18040,SDC24,2564888,2426282,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,NB_69,1890119,1779541,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,COSM1236671,c.4307C>T,p.S1436L,Substitution - Missense,,u,38,6:157200955-157200955,+,n,-,PATHOGENIC,0.9826,Variant of unknown origin,23202128,,cell-line,NS,
+ARID1B,ENST00000275248,6696,18040,BB33T,1235113,1146899,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,36
+ARID1B,ENST00000275248,6696,18040,Mx29,1235057,1146843,large_intestine,colon,left,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,51
+ARID1B,ENST00000275248,6696,18040,725067,2485078,2347778,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,866938,2485080,2347780,liver,NS,NS,NS,carcinoma,hepatocellular_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,84,2222666,2090648,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,87,2222668,2090650,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,98,2222679,2090661,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,1,2222615,2090597,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Co84,1235052,1146838,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,metastasis,40
+ARID1B,ENST00000275248,6696,18040,DM48,2466873,2329704,skin,face,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,83
+ARID1B,ENST00000275248,6696,18040,56,2222643,2090625,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Pa10X,1509856,1432722,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,60
+ARID1B,ENST00000275248,6696,18040,113,2222694,2090676,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG64C,2321290,2186444,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,73
+ARID1B,ENST00000275248,6696,18040,HCC1954,1235077,1146863,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,61
+ARID1B,ENST00000275248,6696,18040,HCC2157,1235084,1146870,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,48
+ARID1B,ENST00000275248,6696,18040,42,2222637,2090619,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SDC23,2564887,2426281,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,SDC22,2564886,2426280,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,109,2222690,2090672,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SDC18,2564882,2426276,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,BB39T,1235119,1146905,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,39
+ARID1B,ENST00000275248,6696,18040,PD13788a,1914306,1802498,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,66
+ARID1B,ENST00000275248,6696,18040,374903,2485060,2347760,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Pa03C,1509850,1432716,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,metastasis,60
+ARID1B,ENST00000275248,6696,18040,66,2222650,2090632,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB106X,1512938,1435622,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,xenograft,recurrent,16
+ARID1B,ENST00000275248,6696,18040,DM34,2466866,2329697,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,82
+ARID1B,ENST00000275248,6696,18040,713083,2485077,2347777,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,SDC25,2564889,2426283,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,XHDG49C,2321276,2186430,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,58
+ARID1B,ENST00000275248,6696,18040,108,2222689,2090671,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Pa16C,1509859,1432725,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,primary,81
+ARID1B,ENST00000275248,6696,18040,76,2222658,2090640,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13785a,1914266,1802478,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,45
+ARID1B,ENST00000275248,6696,18040,SDC27,2564891,2426285,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,79,2222661,2090643,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Hs578T,1235086,1146872,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,74
+ARID1B,ENST00000275248,6696,18040,BB42T,1235121,1146907,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,56
+ARID1B,ENST00000275248,6696,18040,Br17X,1312979,1223888,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,63
+ARID1B,ENST00000275248,6696,18040,Pa20C,1509861,1432727,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,primary,69
+ARID1B,ENST00000275248,6696,18040,DM96,2466889,2329720,skin,neck,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,81
+ARID1B,ENST00000275248,6696,18040,Br14X,1312976,1223885,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,61
+ARID1B,ENST00000275248,6696,18040,BB7T,1235093,1146879,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,59
+ARID1B,ENST00000275248,6696,18040,Mx43,1235049,1146835,large_intestine,colon,sigmoid,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,72
+ARID1B,ENST00000275248,6696,18040,Mx31,1235058,1146844,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,50
+ARID1B,ENST00000275248,6696,18040,314485,2485057,2347757,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,625080,2485072,2347772,ovary,NS,NS,NS,germ_cell_tumour,dysgerminoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,BB15T,1235099,1146885,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,79
+ARID1B,ENST00000275248,6696,18040,DM94,2466887,2329718,skin,trunk,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607872,c.5817C>T,p.F1939F,Substitution - coding silent,,u,38,6:157207012-157207012,+,y,-,NEUTRAL,0.21456,Variant of unknown origin,26343386,,surgery-fixed,NS,81
+ARID1B,ENST00000275248,6696,18040,1164797,2485092,2347792,central_nervous_system,brain,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,1332265,2485097,2347797,central_nervous_system,brain,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Mx34,1235059,1146845,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,82
+ARID1B,ENST00000275248,6696,18040,Br08X,1312970,1223879,central_nervous_system,brain,NS,NS,glioma,NS,NS,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,54
+ARID1B,ENST00000275248,6696,18040,BB43T,1235122,1146908,breast,NS,NS,NS,carcinoma,ductolobular_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,54
+ARID1B,ENST00000275248,6696,18040,Pa39X,1509869,1432735,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,53
+ARID1B,ENST00000275248,6696,18040,SA-TL04,2521496,2383839,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,5.2
+ARID1B,ENST00000275248,6696,18040,XHDG62C,2321288,2186442,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,47
+ARID1B,ENST00000275248,6696,18040,SA-TL13,2521497,2383840,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,4.5
+ARID1B,ENST00000275248,6696,18040,PD13794a,1914376,1802533,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,69
+ARID1B,ENST00000275248,6696,18040,DM14,2466856,2329687,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,79
+ARID1B,ENST00000275248,6696,18040,MB125PT,1512952,1435636,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,11
+ARID1B,ENST00000275248,6696,18040,Pa01C,1509848,1432714,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,metastasis,62
+ARID1B,ENST00000275248,6696,18040,Hx190,1235070,1146856,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,73
+ARID1B,ENST00000275248,6696,18040,27,2222626,2090608,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Hx188,1235068,1146854,large_intestine,colon,left,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,60
+ARID1B,ENST00000275248,6696,18040,PD13783a,1914248,1802469,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,41
+ARID1B,ENST00000275248,6696,18040,SH-7032,2371740,2234534,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SH-3458,2371735,2234529,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5019255,c.1504A>G,p.I502V,Substitution - Missense,,u,38,6:156829362-156829362,+,y,-,NEUTRAL,0.06223,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13782a,1914238,1802464,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,74
+ARID1B,ENST00000275248,6696,18040,PD13790a,1914328,1802509,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,62
+ARID1B,ENST00000275248,6696,18040,Hx172,1235065,1146851,large_intestine,colon,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,69
+ARID1B,ENST00000275248,6696,18040,77,2222659,2090641,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Co82,1235051,1146837,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,80
+ARID1B,ENST00000275248,6696,18040,36,2222631,2090613,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,DM4,2466869,2329700,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,93
+ARID1B,ENST00000275248,6696,18040,Mx32,1235045,1146831,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,56
+ARID1B,ENST00000275248,6696,18040,DM55,2466876,2329707,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM3859988,c.4687C>T,p.Q1563*,Substitution - Nonsense,,u,38,6:157201335-157201335,+,n,-,PATHOGENIC,0.98622,Reported in another cancer sample as somatic,26343386,,surgery-fixed,NS,59
+ARID1B,ENST00000275248,6696,18040,99,2222680,2090662,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13781a,1914228,1802459,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,59
+ARID1B,ENST00000275248,6696,18040,519489,2485068,2347768,liver,NS,NS,NS,other,hepatoblastoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,PD13777a,1914178,1802434,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,39
+ARID1B,ENST00000275248,6696,18040,PD13798a,1914428,1802559,breast,NS,NS,NS,carcinoma,HER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,46
+ARID1B,ENST00000275248,6696,18040,196713,2485051,2347751,adrenal_gland,adrenal_gland,NS,NS,adrenal_cortical_neoplasm,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,55,2222642,2090624,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB124PT,1512951,1435635,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,large_cell,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,9
+ARID1B,ENST00000275248,6696,18040,DM1,2466850,2329681,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607846,c.3551C>T,p.S1184F,Substitution - Missense,,u,38,6:157189696-157189696,+,n,-,PATHOGENIC,0.98944,Variant of unknown origin,26343386,,surgery-fixed,NS,78
+ARID1B,ENST00000275248,6696,18040,112,2222693,2090675,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SA-TL14,2521501,2383844,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,COSM1731933,c.840_841insGTGGCG,p.A282_A283insVA,Insertion - In frame,,u,38,6:156778943-156778944,+,,-,,,Reported in another cancer sample as somatic,26487540,,surgery-fixed,NS,5.9
+ARID1B,ENST00000275248,6696,18040,1252021,2485095,2347795,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_III,anaplastic,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,SDC21,2564885,2426279,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,DM64,2466880,2329711,skin,lower_back,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,54
+ARID1B,ENST00000275248,6696,18040,HCC1937,1235083,1146869,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,24
+ARID1B,ENST00000275248,6696,18040,115,2222696,2090678,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG60C,2321286,2186440,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,65
+ARID1B,ENST00000275248,6696,18040,PD11774a,1775602,1679648,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,41
+ARID1B,ENST00000275248,6696,18040,Br15X,1312977,1223886,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,61
+ARID1B,ENST00000275248,6696,18040,SH-6055,2371739,2234533,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Br07X,1312969,1223878,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,45
+ARID1B,ENST00000275248,6696,18040,SA-TL03,2521509,2383852,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_III,anaplastic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,14.6
+ARID1B,ENST00000275248,6696,18040,927577,2485082,2347782,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,HCC2218,1235085,1146871,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,38
+ARID1B,ENST00000275248,6696,18040,Pa08C,1509854,1432720,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,metastasis,51
+ARID1B,ENST00000275248,6696,18040,PD11772a,1775596,1679642,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,COSM5024885,c.49G>C,p.A17P,Substitution - Missense,,u,38,6:156778152-156778152,+,n,-,NEUTRAL,0.12027,Confirmed somatic variant,25850943,,fresh/frozen - NOS,NS,70
+ARID1B,ENST00000275248,6696,18040,91,2222672,2090654,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB120PT,1512947,1435631,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,3
+ARID1B,ENST00000275248,6696,18040,HCC1395,1235081,1146867,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,COSM32748,c.2267G>C,p.G756A,Substitution - Missense,het,u,38,6:157133136-157133136,+,n,-,PATHOGENIC,0.97915,Confirmed somatic variant,16959974,,cell-line,primary,43
+ARID1B,ENST00000275248,6696,18040,SA-TL10,2521506,2383849,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_II,fibrillary,NS,n,COSM1731937,c.165_166insCAG,p.Q73_H74insQ,Insertion - In frame,,u,38,6:156778268-156778269,+,,-,,,Reported in another cancer sample as somatic,26487540,,surgery-fixed,NS,1.5
+ARID1B,ENST00000275248,6696,18040,DM65,2466881,2329712,skin,upper_leg,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,54
+ARID1B,ENST00000275248,6696,18040,SA-TL20,2521500,2383843,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,5.8
+ARID1B,ENST00000275248,6696,18040,BB2T,1235089,1146875,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,51
+ARID1B,ENST00000275248,6696,18040,Br05X,1312967,1223876,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,41
+ARID1B,ENST00000275248,6696,18040,101578,2485048,2347748,bone,NS,NS,NS,osteosarcoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,MB126PT,1512953,1435637,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,large_cell,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,11
+ARID1B,ENST00000275248,6696,18040,117,2222698,2090680,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,958462,2485084,2347784,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Pa14C,1509858,1432724,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,primary,85
+ARID1B,ENST00000275248,6696,18040,DM26,2466862,2329693,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,79
+ARID1B,ENST00000275248,6696,18040,DM11,2466854,2329685,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,73
+ARID1B,ENST00000275248,6696,18040,689639,2485075,2347775,central_nervous_system,brain,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,981413,2485085,2347785,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Mx35,1235060,1146846,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,57
+ARID1B,ENST00000275248,6696,18040,Br20P,1312980,1223889,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,surgery - NOS,primary,77
+ARID1B,ENST00000275248,6696,18040,1144813,2485091,2347791,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,HCC1187,1235080,1146866,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,41
+ARID1B,ENST00000275248,6696,18040,Br02X,1312964,1223873,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,39
+ARID1B,ENST00000275248,6696,18040,SDC30,2564894,2426288,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,SH-0348,2371728,2234522,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SDC26,2564890,2426284,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,SDC29,2564893,2426287,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,383801,2485061,2347761,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,106,2222687,2090669,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,BB4T,1235091,1146877,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,52
+ARID1B,ENST00000275248,6696,18040,PD13801a,1914458,1802574,breast,NS,NS,NS,carcinoma,HER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,48
+ARID1B,ENST00000275248,6696,18040,Hx189,1235069,1146855,large_intestine,colon,left,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,72
+ARID1B,ENST00000275248,6696,18040,DM10,2466851,2329682,skin,face,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607850,c.5063C>A,p.P1688H,Substitution - Missense,,u,38,6:157206258-157206258,+,n,-,PATHOGENIC,0.91821,Variant of unknown origin,26343386,,surgery-fixed,NS,70
+ARID1B,ENST00000275248,6696,18040,7,2222618,2090600,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13793a,1914366,1802528,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,49
+ARID1B,ENST00000275248,6696,18040,Br29P,1312985,1223894,central_nervous_system,brain,NS,NS,glioma,NS,NS,NS,n,,,,,,n,,,,,-,,,,18772396,,surgery - NOS,recurrent,42
+ARID1B,ENST00000275248,6696,18040,Hx174,1235066,1146852,large_intestine,colon,sigmoid,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,73
+ARID1B,ENST00000275248,6696,18040,Br26X,1312983,1223892,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,66
+ARID1B,ENST00000275248,6696,18040,52,2222640,2090622,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,601812,2485071,2347771,central_nervous_system,brain,NS,NS,other,ganglioglioma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,1373570,2485099,2347799,liver,NS,NS,NS,other,hepatoblastoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,68,2222652,2090634,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Pa02C,1509849,1432715,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,metastasis,57
+ARID1B,ENST00000275248,6696,18040,MB104X,1512936,1435620,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,xenograft,primary,8
+ARID1B,ENST00000275248,6696,18040,403010,2485062,2347762,soft_tissue,fibrous_tissue_and_uncertain_origin,NS,NS,desmoplastic_small_round_cell_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Br25X,1312982,1223891,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,45
+ARID1B,ENST00000275248,6696,18040,1085708,2485089,2347789,central_nervous_system,brain,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,39,2222634,2090616,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Hx005,1235063,1146849,large_intestine,colon,descending,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,62
+ARID1B,ENST00000275248,6696,18040,BB10T,1235095,1146881,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,55
+ARID1B,ENST00000275248,6696,18040,MB130PT,1512956,1435640,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,
+ARID1B,ENST00000275248,6696,18040,DM25,2466861,2329692,skin,upper_back,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,73
+ARID1B,ENST00000275248,6696,18040,PD4877a,1446136,1370379,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,primary,52
+ARID1B,ENST00000275248,6696,18040,DM45,2466872,2329703,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,65
+ARID1B,ENST00000275248,6696,18040,Co79,1235050,1146836,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,metastasis,81
+ARID1B,ENST00000275248,6696,18040,SH-7166,2371741,2234535,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5019600,c.3960-7A>G,p.?,Unknown,,u,38,6:157198804-157198804,+,y,-,NEUTRAL,0.07126,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG65C,2321291,2186445,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,74
+ARID1B,ENST00000275248,6696,18040,DM2,2466860,2329691,skin,face,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607858,c.2014C>T,p.P672S,Substitution - Missense,,u,38,6:157084851-157084851,+,n,-,PATHOGENIC,0.99063,Variant of unknown origin,26343386,,surgery-fixed,NS,86
+ARID1B,ENST00000275248,6696,18040,37,2222632,2090614,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,61,2222648,2090630,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Pa07C,1509853,1432719,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,metastasis,81
+ARID1B,ENST00000275248,6696,18040,SH-5693,2371738,2234532,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5020366,c.4470T>C,p.H1490H,Substitution - coding silent,,u,38,6:157201118-157201118,+,y,-,NEUTRAL,0.14544,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Mx42,1235048,1146834,large_intestine,colon,left,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,72
+ARID1B,ENST00000275248,6696,18040,Pa28C,1509863,1432729,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,primary,65
+ARID1B,ENST00000275248,6696,18040,HCC2713,1235087,1146873,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,35
+ARID1B,ENST00000275248,6696,18040,DM18,2466859,2329690,skin,face,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,48
+ARID1B,ENST00000275248,6696,18040,Br10P,1312972,1223881,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,surgery - NOS,primary,30
+ARID1B,ENST00000275248,6696,18040,XHDG50C,2321277,2186431,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,81
+ARID1B,ENST00000275248,6696,18040,90,2222671,2090653,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,80,2222662,2090644,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,BB13T,1235097,1146883,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,63
+ARID1B,ENST00000275248,6696,18040,SDC31,2564895,2426289,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,SH-1362,2371729,2234523,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5019255,c.1504A>G,p.I502V,Substitution - Missense,,u,38,6:156829362-156829362,+,y,-,NEUTRAL,0.06223,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB128PT,1512954,1435638,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,6
+ARID1B,ENST00000275248,6696,18040,DM28,2466863,2329694,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,91
+ARID1B,ENST00000275248,6696,18040,XHDG61C,2321287,2186441,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,48
+ARID1B,ENST00000275248,6696,18040,111,2222692,2090674,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SA-N103,2521510,2383853,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,25
+ARID1B,ENST00000275248,6696,18040,BB1T,1235088,1146874,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,51
+ARID1B,ENST00000275248,6696,18040,BB27T,1235107,1146893,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,46
+ARID1B,ENST00000275248,6696,18040,BB35T,1235115,1146901,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,67
+ARID1B,ENST00000275248,6696,18040,Mx27,1235043,1146829,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,74
+ARID1B,ENST00000275248,6696,18040,22,2222623,2090605,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,1113278,2485090,2347790,soft_tissue,striated_muscle,NS,NS,rhabdomyosarcoma,embryonal,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,SA-TL17,2521505,2383848,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,13.4
+ARID1B,ENST00000275248,6696,18040,Pa43X,1509871,1432737,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,64
+ARID1B,ENST00000275248,6696,18040,SH-102782,2371748,2234542,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG45C,2321272,2186426,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,59
+ARID1B,ENST00000275248,6696,18040,MB101X,1512935,1435619,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,xenograft,primary,5
+ARID1B,ENST00000275248,6696,18040,41310,2485047,2347747,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,PD11773a,1775599,1679645,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,39
+ARID1B,ENST00000275248,6696,18040,73,2222656,2090638,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,DM31,2466865,2329696,skin,upper_arm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,44
+ARID1B,ENST00000275248,6696,18040,SDC28,2564892,2426286,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,364059,2485059,2347759,soft_tissue,NS,NS,NS,small_round_cell_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,1357902,2485098,2347798,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,DM16,2466857,2329688,skin,head_neck,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607856,c.3488C>T,p.P1163L,Substitution - Missense,,u,38,6:157184427-157184427,+,n,-,PATHOGENIC,0.93768,Reported in another cancer sample as somatic,26343386,,surgery-fixed,NS,80
+ARID1B,ENST00000275248,6696,18040,51,2222639,2090621,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB113PT,1512942,1435626,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,8
+ARID1B,ENST00000275248,6696,18040,94,2222675,2090657,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,DM12,2466855,2329686,skin,face,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607854,c.1839C>T,p.S613S,Substitution - coding silent,,u,38,6:157084676-157084676,+,n,-,PATHOGENIC,0.8685,Variant of unknown origin,26343386,,surgery-fixed,NS,71
+ARID1B,ENST00000275248,6696,18040,DM43,2466871,2329702,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607860,c.4410C>T,p.P1470P,Substitution - coding silent,,u,38,6:157201058-157201058,+,n,-,NEUTRAL,0.02732,Variant of unknown origin,26343386,,surgery-fixed,NS,78
+ARID1B,ENST00000275248,6696,18040,471158,2485065,2347765,central_nervous_system,brainstem,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,SH-3327,2371734,2234528,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM4406882,c.4578G>A,p.P1526P,Substitution - coding silent,,u,38,6:157201226-157201226,+,y,-,NEUTRAL,0.16077,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,779753,2485079,2347779,kidney,NS,NS,NS,carcinoma,clear_cell_renal_cell_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,PD13796a,1914408,1802549,breast,NS,NS,NS,carcinoma,HER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,47
+ARID1B,ENST00000275248,6696,18040,1265643,2485096,2347796,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG47C,2321274,2186428,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,61
+ARID1B,ENST00000275248,6696,18040,BB37T,1235117,1146903,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,47
+ARID1B,ENST00000275248,6696,18040,Mx30,1235044,1146830,large_intestine,colon,sigmoid,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,62
+ARID1B,ENST00000275248,6696,18040,PD11776a,1775608,1679654,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,41
+ARID1B,ENST00000275248,6696,18040,XHDG63C,2321289,2186443,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,49
+ARID1B,ENST00000275248,6696,18040,SH-7282,2371742,2234536,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Br09P,1312971,1223880,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,surgery - NOS,primary,51
+ARID1B,ENST00000275248,6696,18040,74,2222657,2090639,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,941455,2485083,2347783,bone,NS,NS,NS,osteosarcoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,118,2222699,2090681,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,DM1,2466850,2329681,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607848,c.1907G>A,p.S636N,Substitution - Missense,,u,38,6:157084744-157084744,+,n,-,PATHOGENIC,0.99014,Variant of unknown origin,26343386,,surgery-fixed,NS,78
+ARID1B,ENST00000275248,6696,18040,Br03X,1312965,1223874,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,44
+ARID1B,ENST00000275248,6696,18040,DM95,2466888,2329719,skin,arm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,69
+ARID1B,ENST00000275248,6696,18040,Br27P,1312984,1223893,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,surgery - NOS,secondary,32
+ARID1B,ENST00000275248,6696,18040,Co108,1235041,1146827,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,metastasis,77
+ARID1B,ENST00000275248,6696,18040,SH-4435,2371737,2234531,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5019600,c.3960-7A>G,p.?,Unknown,,u,38,6:157198804-157198804,+,y,-,NEUTRAL,0.07126,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,5,2222617,2090599,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Pa37X,1509867,1432733,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,60
+ARID1B,ENST00000275248,6696,18040,Mx26,1235056,1146842,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,45
+ARID1B,ENST00000275248,6696,18040,488077,2485066,2347766,central_nervous_system,NS,NS,NS,glioma,ependymoma_Grade_III-IV,anaplastic,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,SA-TL07,2521508,2383851,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_II,fibrillary,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,2.2
+ARID1B,ENST00000275248,6696,18040,SH-7166,2371741,2234535,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5020593,c.1764C>T,p.P588P,Substitution - coding silent,,u,38,6:156935516-156935516,+,y,-,NEUTRAL,0.05596,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB105X,1512937,1435621,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,xenograft,primary,2
+ARID1B,ENST00000275248,6696,18040,Mx8,1235055,1146841,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,primary,65
+ARID1B,ENST00000275248,6696,18040,102,2222683,2090665,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,COSM1183559,c.1528G>A,p.G510R,Substitution - Missense,,u,38,6:156829386-156829386,+,n,-,PATHOGENIC,0.84423,Confirmed somatic variant,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,DM37,2466868,2329699,skin,upper_arm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,58
+ARID1B,ENST00000275248,6696,18040,Pa09C,1509855,1432721,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,primary,60
+ARID1B,ENST00000275248,6696,18040,MB121PT,1512948,1435632,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,2
+ARID1B,ENST00000275248,6696,18040,Hx220,1235074,1146860,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,83
+ARID1B,ENST00000275248,6696,18040,BB14T,1235098,1146884,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,74
+ARID1B,ENST00000275248,6696,18040,SA-TL11,2521498,2383841,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,13.6
+ARID1B,ENST00000275248,6696,18040,PD13780a,1914214,1802452,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,53
+ARID1B,ENST00000275248,6696,18040,33,2222628,2090610,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,96,2222677,2090659,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG59C,2321285,2186439,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,50
+ARID1B,ENST00000275248,6696,18040,Br13X,1312975,1223884,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,59
+ARID1B,ENST00000275248,6696,18040,DM8,2466885,2329716,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607868,c.6432C>T,p.F2144F,Substitution - coding silent,,u,38,6:157207627-157207627,+,n,-,PATHOGENIC,0.86502,Variant of unknown origin,26343386,,surgery-fixed,NS,81
+ARID1B,ENST00000275248,6696,18040,XHDG48C,2321275,2186429,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,COSM1075343,c.186G>A,p.Q62Q,Substitution - coding silent,,u,38,6:156778289-156778289,+,n,-,NEUTRAL,0.05665,Confirmed somatic variant,24997986,,NS,NS,54
+ARID1B,ENST00000275248,6696,18040,SA-TH01,2521511,2383854,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,2.9
+ARID1B,ENST00000275248,6696,18040,Br04X,1312966,1223875,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,recurrent,45
+ARID1B,ENST00000275248,6696,18040,461256,2485064,2347764,genital_tract,NS,NS,NS,germ_cell_tumour,teratoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,BB21T,1235103,1146889,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,77
+ARID1B,ENST00000275248,6696,18040,Br11P,1312973,1223882,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,surgery - NOS,primary,32
+ARID1B,ENST00000275248,6696,18040,19,2222620,2090602,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,149834,2485049,2347749,soft_tissue,nerve_sheath,NS,NS,schwannoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,BB24T,1235106,1146892,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,66
+ARID1B,ENST00000275248,6696,18040,BB28T,1235108,1146894,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,47
+ARID1B,ENST00000275248,6696,18040,81,2222663,2090645,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SH-5693,2371738,2234532,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5019600,c.3960-7A>G,p.?,Unknown,,u,38,6:157198804-157198804,+,y,-,NEUTRAL,0.07126,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,881167,2485081,2347781,liver,NS,NS,NS,other,hepatoblastoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,107,2222688,2090670,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Br12P,1312974,1223883,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,surgery - NOS,primary,31
+ARID1B,ENST00000275248,6696,18040,Pa05X,1509852,1432718,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,metastasis,50
+ARID1B,ENST00000275248,6696,18040,PD13789a,1914320,1802505,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,59
+ARID1B,ENST00000275248,6696,18040,DM29,2466864,2329695,skin,chest,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,85
+ARID1B,ENST00000275248,6696,18040,41,2222636,2090618,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,BB36T,1235116,1146902,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,60
+ARID1B,ENST00000275248,6696,18040,502635,2485067,2347767,central_nervous_system,brain,NS,NS,other,neoplasm,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,PD13774a,1914144,1802417,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,52
+ARID1B,ENST00000275248,6696,18040,532412,2485069,2347769,central_nervous_system,brain,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,BB20T,1235102,1146888,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,83
+ARID1B,ENST00000275248,6696,18040,40,2222635,2090617,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,104,2222685,2090667,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB111PT,1512941,1435625,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,5
+ARID1B,ENST00000275248,6696,18040,XHDG54C,2321281,2186435,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,64
+ARID1B,ENST00000275248,6696,18040,95,2222676,2090658,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,BB30T,1235110,1146896,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,50
+ARID1B,ENST00000275248,6696,18040,103,2222684,2090666,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,116,2222697,2090679,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13773a,1914136,1802413,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,60
+ARID1B,ENST00000275248,6696,18040,85,2222667,2090649,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Mx40,1235061,1146847,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,75
+ARID1B,ENST00000275248,6696,18040,Hx218,1235072,1146858,large_intestine,colon,left,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,56
+ARID1B,ENST00000275248,6696,18040,BB16T,1235100,1146886,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,40
+ARID1B,ENST00000275248,6696,18040,MB122PT,1512949,1435633,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,large_cell,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,13
+ARID1B,ENST00000275248,6696,18040,HCC38,1235078,1146864,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,50
+ARID1B,ENST00000275248,6696,18040,243544,2485054,2347754,liver,NS,NS,NS,other,hepatoblastoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Pa04C,1509851,1432717,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,metastasis,59
+ARID1B,ENST00000275248,6696,18040,Hx223,1235075,1146861,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,45
+ARID1B,ENST00000275248,6696,18040,XHDG58C,2321284,2186438,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,54
+ARID1B,ENST00000275248,6696,18040,26,2222625,2090607,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SA-TH04,2521502,2383845,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,17.2
+ARID1B,ENST00000275248,6696,18040,PD13779a,1914198,1802444,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,43
+ARID1B,ENST00000275248,6696,18040,S00539,1759189,1663937,lung,NS,NS,NS,carcinoma,small_cell_carcinoma,NS,NS,n,COSM309264,c.2693A>C,p.Q898P,Substitution - Missense,,u,38,6:157167066-157167066,+,n,-,PATHOGENIC,0.92843,Reported in another cancer sample as somatic,22941188,,fresh/frozen - NOS,NS,66
+ARID1B,ENST00000275248,6696,18040,MB118PT,1512945,1435629,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,9
+ARID1B,ENST00000275248,6696,18040,DM36,2466867,2329698,skin,neck,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,48
+ARID1B,ENST00000275248,6696,18040,110,2222691,2090673,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,23266,2485046,2347746,central_nervous_system,brain,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,DM74,2466882,2329713,skin,back,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,90
+ARID1B,ENST00000275248,6696,18040,SH-1641,2371730,2234524,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,DM59,2466878,2329709,skin,scalp,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607864,c.4836T>G,p.D1612E,Substitution - Missense,,u,38,6:157201484-157201484,+,n,-,PATHOGENIC,0.96514,Variant of unknown origin,26343386,,surgery-fixed,NS,79
+ARID1B,ENST00000275248,6696,18040,SH-1439,2371749,2234543,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5019600,c.3960-7A>G,p.?,Unknown,,u,38,6:157198804-157198804,+,y,-,NEUTRAL,0.07126,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SH-9161,2371745,2234539,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,1011443,2485087,2347787,genital_tract,NS,NS,NS,germ_cell_tumour,mixed,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,DM17,2466858,2329689,skin,arm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,74
+ARID1B,ENST00000275248,6696,18040,PD13787a,1914294,1802492,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,86
+ARID1B,ENST00000275248,6696,18040,38,2222633,2090615,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG67C,2321293,2186447,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,79
+ARID1B,ENST00000275248,6696,18040,100,2222681,2090663,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB123PT,1512950,1435634,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,4
+ARID1B,ENST00000275248,6696,18040,DM42,2466870,2329701,skin,upper_arm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,63
+ARID1B,ENST00000275248,6696,18040,SH-3776,2371736,2234530,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM4406882,c.4578G>A,p.P1526P,Substitution - coding silent,,u,38,6:157201226-157201226,+,y,-,NEUTRAL,0.16077,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,BB18T,1235101,1146887,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,53
+ARID1B,ENST00000275248,6696,18040,SA-TH02,2521512,2383855,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,12.3
+ARID1B,ENST00000275248,6696,18040,SDC20,2564884,2426278,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,176688,2485050,2347750,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,PD13805a,1914504,1802597,breast,NS,NS,NS,carcinoma,HER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,54
+ARID1B,ENST00000275248,6696,18040,65,2222649,2090631,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG46C,2321273,2186427,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,COSM4767421,c.5368C>T,p.R1790C,Substitution - Missense,,u,38,6:157206563-157206563,+,n,-,PATHOGENIC,0.90074,Confirmed somatic variant,24997986,,NS,NS,45
+ARID1B,ENST00000275248,6696,18040,SA-TL12,2521504,2383847,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,9
+ARID1B,ENST00000275248,6696,18040,NB_16,1890118,1779540,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,COSM1236669,c.3959+4A>G,p.?,Unknown,,u,38,6:157196319-157196319,+,n,-,PATHOGENIC,0.81124,Variant of unknown origin,23202128,,cell-line,NS,
+ARID1B,ENST00000275248,6696,18040,DM98,2466890,2329721,skin,arm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607874,c.5656C>T,p.P1886S,Substitution - Missense,,u,38,6:157206851-157206851,+,n,-,PATHOGENIC,0.9732,Reported in another cancer sample as somatic,26343386,,surgery-fixed,NS,77
+ARID1B,ENST00000275248,6696,18040,996720,2485086,2347786,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,PD13792a,1914350,1802520,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,44
+ARID1B,ENST00000275248,6696,18040,BB22T,1235104,1146890,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,50
+ARID1B,ENST00000275248,6696,18040,PD13800a,1914450,1802570,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,49
+ARID1B,ENST00000275248,6696,18040,Pa29C,1509864,1432730,biliary_tract,bile_duct,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,primary,53
+ARID1B,ENST00000275248,6696,18040,SA-TL02,2521503,2383846,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,8.3
+ARID1B,ENST00000275248,6696,18040,Br16X,1312978,1223887,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,63
+ARID1B,ENST00000275248,6696,18040,53,2222641,2090623,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG19C,2321250,2186404,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,47
+ARID1B,ENST00000275248,6696,18040,Hx206,1235071,1146857,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,54
+ARID1B,ENST00000275248,6696,18040,BB44T,1235123,1146909,breast,NS,NS,NS,carcinoma,ductolobular_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,46
+ARID1B,ENST00000275248,6696,18040,Mx45,1235062,1146848,large_intestine,colon,transverse,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,67
+ARID1B,ENST00000275248,6696,18040,PD3199a,1090013,1004979,salivary_gland,mouth_floor,NS,NS,carcinoma,adenoid_cystic_carcinoma,NS,NS,n,COSM1658810,c.4390delG,p.G1464fs*12,Deletion - Frameshift,,u,38,6:157201038-157201038,+,n,-,,,Confirmed somatic variant,23778141,,surgery - NOS,primary,60
+ARID1B,ENST00000275248,6696,18040,2174,2370328,2233126,kidney,NS,NS,NS,carcinoma,papillary_renal_cell_carcinoma,NS,NS,n,COSM5014657,c.2729A>T,p.Q910L,Substitution - Missense,,u,38,6:157167102-157167102,+,n,-,PATHOGENIC,0.9714,Confirmed somatic variant,25401301,,surgery fresh/frozen,primary,
+ARID1B,ENST00000275248,6696,18040,DM79,2466884,2329715,skin,head_neck,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,80
+ARID1B,ENST00000275248,6696,18040,BB12T,1235096,1146882,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,58
+ARID1B,ENST00000275248,6696,18040,1466781,2485100,2347800,soft_tissue,striated_muscle,NS,NS,rhabdomyosarcoma,embryonal,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Mx3,1235054,1146840,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,primary,64
+ARID1B,ENST00000275248,6696,18040,43,2222638,2090620,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,COSM4170079,c.165_166insCAGCAG,p.Q73_H74insQQ,Insertion - In frame,,u,38,6:156778268-156778269,+,,-,,,Confirmed somatic variant,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG53C,2321280,2186434,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,COSM4767423,c.5356G>C,p.D1786H,Substitution - Missense,,u,38,6:157206551-157206551,+,n,-,PATHOGENIC,0.92706,Confirmed somatic variant,24997986,,NS,NS,61
+ARID1B,ENST00000275248,6696,18040,Pa18C,1509860,1432726,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,cell-line,primary,77
+ARID1B,ENST00000275248,6696,18040,88,2222669,2090651,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Mx38,1235046,1146832,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,67
+ARID1B,ENST00000275248,6696,18040,21,2222622,2090604,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SH-9248,2371746,2234540,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,DM77,2466883,2329714,skin,arm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607866,c.1868delC,p.A623fs*3,Deletion - Frameshift,,u,38,6:157084705-157084705,+,,-,,,Variant of unknown origin,26343386,,surgery-fixed,NS,79
+ARID1B,ENST00000275248,6696,18040,34,2222629,2090611,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,1202603,2485094,2347794,NS,NS,NS,NS,malignant_melanoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Mx41,1235047,1146833,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,57
+ARID1B,ENST00000275248,6696,18040,72,2222655,2090637,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG52C,2321279,2186433,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,46
+ARID1B,ENST00000275248,6696,18040,HCC1599,1235082,1146868,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,44
+ARID1B,ENST00000275248,6696,18040,Pa36X,1509866,1432732,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,74
+ARID1B,ENST00000275248,6696,18040,58,2222645,2090627,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13804a,1914488,1802589,breast,NS,NS,NS,carcinoma,HER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,83
+ARID1B,ENST00000275248,6696,18040,67,2222651,2090633,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,HCC1143,1235079,1146865,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,primary,52
+ARID1B,ENST00000275248,6696,18040,11,2222619,2090601,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,82,2222664,2090646,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,4,2222616,2090598,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,COSM4170077,c.188_189insGC,p.Q64fs*59,Insertion - Frameshift,,u,38,6:156778291-156778292,+,,-,,,Confirmed somatic variant,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Br06X,1312968,1223877,central_nervous_system,brain,NS,NS,glioma,astrocytoma_Grade_IV,glioblastoma_multiforme,NS,n,,,,,,n,,,,,-,,,,18772396,,xenograft,primary,11
+ARID1B,ENST00000275248,6696,18040,SH-8559,2371744,2234538,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,BB29T,1235109,1146895,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,54
+ARID1B,ENST00000275248,6696,18040,DM99,2466891,2329722,skin,head_neck,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,82
+ARID1B,ENST00000275248,6696,18040,SA-N101,2521507,2383850,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_II,fibrillary,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,82
+ARID1B,ENST00000275248,6696,18040,SH-3133,2371733,2234527,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG56C,2321283,2186437,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,59
+ARID1B,ENST00000275248,6696,18040,DM51,2466875,2329706,skin,neck,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607862,c.6168G>A,p.S2056S,Substitution - coding silent,,u,38,6:157207363-157207363,+,n,-,,0.65438,Variant of unknown origin,26343386,,surgery-fixed,NS,88
+ARID1B,ENST00000275248,6696,18040,BB38T,1235118,1146904,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,39
+ARID1B,ENST00000275248,6696,18040,Co92,1235040,1146826,large_intestine,colon,right,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,metastasis,46
+ARID1B,ENST00000275248,6696,18040,HCC1008,1235076,1146862,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,cell-line,metastasis,67
+ARID1B,ENST00000275248,6696,18040,321764,2485058,2347758,central_nervous_system,brain,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,70,2222654,2090636,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB129PT,1512955,1435639,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,
+ARID1B,ENST00000275248,6696,18040,PD4878a,1446139,1370382,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,primary,60
+ARID1B,ENST00000275248,6696,18040,83,2222665,2090647,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,1521263,2485101,2347801,central_nervous_system,NS,NS,NS,glioma,ependymoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,97,2222678,2090660,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,679007,2485074,2347774,soft_tissue,striated_muscle,NS,NS,rhabdomyosarcoma,embryonal,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,BB40T,1235120,1146906,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,43
+ARID1B,ENST00000275248,6696,18040,SA-TL19,2521499,2383842,central_nervous_system,spinal_cord,NS,NS,glioma,astrocytoma_Grade_I,pilocytic,NS,n,,,,,,u,,,,,-,,,,26487540,,surgery-fixed,NS,5.4
+ARID1B,ENST00000275248,6696,18040,SDC17,2564881,2426275,salivary_gland,NS,NS,NS,carcinoma,salivary_duct_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,27103403,,surgery fresh/frozen,recurrent,
+ARID1B,ENST00000275248,6696,18040,Hx219,1235073,1146859,large_intestine,caecum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,69
+ARID1B,ENST00000275248,6696,18040,XHDG44C,2321271,2186425,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,57
+ARID1B,ENST00000275248,6696,18040,1553184,2485102,2347802,ovary,NS,NS,NS,low_malignant_potential_(borderline)_tumour,serous,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG46C,2321273,2186427,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,COSM4767418,c.2449A>C,p.S817R,Substitution - Missense,,u,38,6:157148734-157148734,+,n,-,PATHOGENIC,0.78304,Confirmed somatic variant,24997986,,NS,NS,45
+ARID1B,ENST00000275248,6696,18040,XHDG66C,2321292,2186446,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,53
+ARID1B,ENST00000275248,6696,18040,696525,2485076,2347776,ovary,NS,NS,NS,germ_cell_tumour,dysgerminoma,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,BB5T,1235092,1146878,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,42
+ARID1B,ENST00000275248,6696,18040,DM101,2466852,2329683,skin,upper_arm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,83
+ARID1B,ENST00000275248,6696,18040,Hx169,1235064,1146850,large_intestine,rectum,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,68
+ARID1B,ENST00000275248,6696,18040,Pa38X,1509868,1432734,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,57
+ARID1B,ENST00000275248,6696,18040,BB9T,1235094,1146880,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,47
+ARID1B,ENST00000275248,6696,18040,455326,2485063,2347763,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,105,2222686,2090668,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,101,2222682,2090664,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,261036,2485055,2347755,autonomic_ganglia,NS,NS,NS,neuroblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG55C,2321282,2186436,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,55
+ARID1B,ENST00000275248,6696,18040,23,2222624,2090606,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,Pa11X,1509857,1432723,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,70
+ARID1B,ENST00000275248,6696,18040,57,2222644,2090626,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,XHDG51C,2321278,2186432,biliary_tract,gallbladder,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,24997986,,NS,NS,56
+ARID1B,ENST00000275248,6696,18040,Mx22,1235042,1146828,large_intestine,NS,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,xenograft,metastasis,66
+ARID1B,ENST00000275248,6696,18040,Pa41X,1509870,1432736,pancreas,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,78
+ARID1B,ENST00000275248,6696,18040,BB34T,1235114,1146900,breast,NS,NS,NS,carcinoma,ductolobular_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,36
+ARID1B,ENST00000275248,6696,18040,114,2222695,2090677,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,1077445,2485088,2347788,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,Pa34X,1509865,1432731,biliary_tract,bile_duct,NS,NS,carcinoma,adenocarcinoma,NS,NS,n,,,,,,u,,,,,-,,,,18772397,,xenograft,primary,81
+ARID1B,ENST00000275248,6696,18040,MB109PT,1512940,1435624,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,classic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,3
+ARID1B,ENST00000275248,6696,18040,DM102,2466853,2329684,skin,neck,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,COSM5607852,c.2312C>T,p.P771L,Substitution - Missense,,u,38,6:157133181-157133181,+,n,-,PATHOGENIC,0.95984,Variant of unknown origin,26343386,,surgery-fixed,NS,72
+ARID1B,ENST00000275248,6696,18040,BB23T,1235105,1146891,breast,NS,NS,NS,carcinoma,ductolobular_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,46
+ARID1B,ENST00000275248,6696,18040,PD13772a,1914128,1802409,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,50
+ARID1B,ENST00000275248,6696,18040,35,2222630,2090612,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,COSM4170081,c.190_192delCAG,p.Q73delQ,Deletion - In frame,,u,38,6:156778293-156778295,+,,-,,,Confirmed somatic variant,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,SH-1679,2371731,2234525,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,COSM5019600,c.3960-7A>G,p.?,Unknown,,u,38,6:157198804-157198804,+,y,-,NEUTRAL,0.07126,Confirmed somatic variant,25589003,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,PD13791a,1914340,1802515,breast,NS,NS,NS,carcinoma,ER-positive_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,25850943,,fresh/frozen - NOS,NS,57
+ARID1B,ENST00000275248,6696,18040,DM49,2466874,2329705,skin,forearm,NS,NS,malignant_melanoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,26343386,,surgery-fixed,NS,76
+ARID1B,ENST00000275248,6696,18040,60,2222647,2090629,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,MB117PT,1512944,1435628,central_nervous_system,medulla,NS,NS,primitive_neuroectodermal_tumour-medulloblastoma,desmoplastic,NS,NS,n,,,,,,u,,,,,-,,,,21163964,,surgery fresh/frozen,primary,2
+ARID1B,ENST00000275248,6696,18040,92,2222673,2090655,haematopoietic_and_lymphoid_tissue,NS,NS,NS,lymphoid_neoplasm,angioimmunoblastic_T_cell_lymphoma,NS,NS,n,,,,,,u,,,,,-,,,,24345752,,fixed - NOS,NS,
+ARID1B,ENST00000275248,6696,18040,205881,2485052,2347752,kidney,NS,NS,NS,Wilms_tumour,NS,NS,NS,n,,,,,,u,,,,,-,,,,26822237,,surgery fresh/frozen,NS,
+ARID1B,ENST00000275248,6696,18040,BB31T,1235111,1146897,breast,NS,NS,NS,carcinoma,ductal_carcinoma,NS,NS,n,,,,,,u,,,,,-,,,,16959974,,surgery fresh/frozen,primary,56
+ARID1B,ENST00000275248,6696,18040,SH-2871,2371732,2234526,soft_tissue,blood_vessel,central_nervous_system,NS,haemangioblastoma,NS,NS,NS,n,,,,,,u,,,,,-,,,,25589003,,fixed - NOS,NS,
