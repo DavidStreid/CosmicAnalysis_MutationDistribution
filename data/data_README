@@ -1,0 +1,7 @@
+Data Taken from COSMIC (Catalogue of Somatic Mutations in Cancer)
+Source: http://cancer.sanger.ac.uk/cosmic/download
+	> COSMIC Complete Mutation Data (Targeted Screens)
+
+TODO:
+	Parse Raw Data into simple (Position, Count) tuples to refer to the genomic position of a mutation and its frequency
+
