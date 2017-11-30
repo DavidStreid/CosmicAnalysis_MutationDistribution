@@ -129,3 +129,76 @@ plot_csrm('ARID1B',TRUE)
 plot_data('ARID2')
 plot_csrm('ARID2',FALSE)
 plot_csrm('ARID2',TRUE)
+
+
+
+
+# NON-PARAMETRIC BOOTSTRAPPING
+# Takes empirical data and desired number of t statistics
+# @data: sample, @n: Number of t statistics
+bootstrap_mean <- function(data,n){
+  b_means <- vector(mode="numeric", length=0);
+  for(i in 1:n){
+    b_mu <- mean(as.numeric(sample(data,length(data), replace=T)));   
+    b_means <- c(b_means, b_mu);
+  }
+  return(b_means);
+}
+
+# calculates variance
+# @bootstrap_estimates: bootstrap estimates of mean
+calc_varianceEstimate <- function(bootstrap_estimates){
+  trueEstimate <- mean(bootstrap_estimates);
+  var <- 0;
+  for(i in 1:length(bootstrap_estimates)){
+    var <- var + (trueEstimate - bootstrap_estimates[i])**2;
+  }
+  return(var/(length(bootstrap_estimates)-1));
+}
+
+# Reading in data
+df <- read.table("../data/cleanedData/ARID1A_filled.csv", 
+                 header = FALSE,
+                 sep = ",")
+freq_at_positions <- unlist(df['V2'])
+
+# Generating bootstrap Means
+bs_means <- bootstrap_mean(freq_at_positions,1000) 
+bs_means_sorted <- sort(bs_means) 
+
+# Estimate mean and variance
+bs_meanEst <- mean(bs_means)                          # 0.008270824
+bs_varEst <- calc_varianceEstimate(bs_means_sorted);  # 2.620954e-07
+
+# Calculating Bootstrap-t C.I. of 95%
+bl <- mean(as.numeric(freq_at_positions)) - (bs_meanEst - bs_means_sorted[25]) * bs_varEst;   # 0.008266815
+bu <- mean(as.numeric(freq_at_positions)) + (bs_means_sorted[975] - bs_meanEst) * bs_varEst;  # 0.008266816
+
+# Plots observed data, @sample: name of sample (E.g. ARID1A)
+generate_bootstrapStatistics <- function(sample){
+  # Reading in data
+  df <- read.table(sprintf("../data/cleanedData/%s_filled.csv", sample), 
+                   header = FALSE,
+                   sep = ",")
+  freq_at_positions <- unlist(df['V2'])
+  
+  # Generating bootstrap Means
+  bs_means <- bootstrap_mean(freq_at_positions,1000) 
+  bs_means_sorted <- sort(bs_means) 
+  
+  # Estimate mean and variance
+  bs_meanEst <- mean(bs_means)                          
+  bs_varEst <- calc_varianceEstimate(bs_means_sorted);  
+  
+  # Calculating Bootstrap-t C.I. of 95%
+  bl <- mean(as.numeric(freq_at_positions)) - (bs_meanEst - bs_means_sorted[25]) * bs_varEst;   
+  bu <- mean(as.numeric(freq_at_positions)) + (bs_means_sorted[975] - bs_meanEst) * bs_varEst; 
+  
+  print(sprintf("Bootstrap Mean: %f", bs_meanEst));
+  print(sprintf("Bootstrap Variance: %f", bs_varEst));
+  print(sprintf("Bootstrap .95 Confidence Interval: [%f,%f]", bl, bu));
+}
+
+generate_bootstrapStatistics('ARID1A')
+generate_bootstrapStatistics('ARID1B')
+generate_bootstrapStatistics('ARID2')
