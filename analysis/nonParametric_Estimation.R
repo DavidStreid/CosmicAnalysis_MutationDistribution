@@ -150,8 +150,8 @@ plot_csrm <- function(sample, overlay, filled){
 }
 
 # (sample, filled)
-plot_data('ARID1A', FALSE)        
-plot_data('ARID1A', TRUE)
+#plot_data('ARID1A', FALSE)        
+#plot_data('ARID1A', TRUE)
 
 plot_data('ARID1B', FALSE)        
 plot_data('ARID1B', TRUE)
@@ -160,21 +160,84 @@ plot_data('ARID2', FALSE)
 plot_data('ARID2', TRUE)
 
 # (sample, overlay, filled)
-plot_csrm('ARID1A',FALSE,TRUE)    # FILLED      NOT OVERLAYED
+#plot_csrm('ARID1A',FALSE,TRUE)    # FILLED      NOT OVERLAYED
 plot_csrm('ARID1A',TRUE,TRUE)     #             OVERLAYED
-plot_csrm('ARID1A',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
-plot_csrm('ARID1A',TRUE,FALSE)    #             OVERLAYED
+#plot_csrm('ARID1A',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
+#plot_csrm('ARID1A',TRUE,FALSE)    #             OVERLAYED
 
 plot_csrm('ARID1B',FALSE,TRUE)    # FILLED      NOT OVERLAYED
 plot_csrm('ARID1B',TRUE,TRUE)     #             OVERLAYED
-plot_csrm('ARID1B',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
-plot_csrm('ARID1B',TRUE,FALSE)    #             OVERLAYED
+#plot_csrm('ARID1B',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
+#plot_csrm('ARID1B',TRUE,FALSE)    #             OVERLAYED
 
 plot_csrm('ARID2',FALSE,TRUE)    # FILLED      NOT OVERLAYED
 plot_csrm('ARID2',TRUE,TRUE)     #             OVERLAYED
-plot_csrm('ARID2',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
-plot_csrm('ARID2',TRUE,FALSE)    #             OVERLAYED
+#plot_csrm('ARID2',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
+#plot_csrm('ARID2',TRUE,FALSE)    #             OVERLAYED
 
+
+# PERMUTATION TESTS
+# Reading in Data
+arid1a_filled <- read_data('ARID1A',TRUE);
+arid1b_filled <- read_data('ARID1B',TRUE);
+arid2_filled <- read_data('ARID2',TRUE);
+
+arid1a_filled_freq <- arid1a_filled['V2'];
+arid1b_filled_freq <- arid1b_filled['V2'];
+arid2_filled_freq <- arid2_filled['V2'];
+
+# Permute
+# @data1,data2 - datasets; @n - number of permutation tests
+permute_test <- function(data1,data2,n){
+  data <- c(data1,data2);
+  len1 <- length(data1);
+  len2 <- length(data2);
+  
+  means1 <- vector(mode="numeric", length=0);
+  means2 <- vector(mode="numeric", length=0);
+  
+  # Run n resamplings and mean calculations
+  for(i in 1:n){
+    p <- sample(data);
+    means1 <- c(means1, mean(as.numeric(p[1:len1])));
+    means2 <- c(means2, mean(as.numeric(p[(len1+1):length(p)])));
+  }
+  # Sort data
+  means1 <- sort(means1);
+  means2 <- sort(means2);
+  
+  # Calculate and output true means
+  trueM1 <- mean(as.numeric(data1));
+  trueM2 <- mean(as.numeric(data2));
+  print(trueM1);
+  print(trueM2);
+  
+  # Determine percentile of where true mean lies
+  percentile1 <- 1;
+  percentile2 <- 1;
+  
+  # Find position of true mean
+  for(i in 1:length(means1)){
+    if(means1[i] > trueM1){
+      percentile1 <- i/n;
+      break;
+    }
+  }
+  
+  for(i in 1:length(means2)){
+    if(means2[i] > trueM2){
+      percentile2 <- i/n;
+      break;
+    }
+  }
+  
+  return(c(percentile1,percentile2));
+}
+
+
+permute_test(arid1a_filled_freq, arid1b_filled_freq, 1000);
+permute_test(arid1a_filled_freq, arid2_filled_freq, 1000);
+permute_test(arid1b_filled_freq, arid2_filled_freq, 1000);
 
 # NON-PARAMETRIC BOOTSTRAPPING
 # Takes empirical data and desired number of t statistics
