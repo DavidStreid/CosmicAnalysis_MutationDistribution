@@ -119,8 +119,8 @@ plot_csrm <- function(sample, overlay){
 }
 
 plot_data('ARID1A')
-plot_csrm('ARID1A',FALSE)
-plot_csrm('ARID1A',TRUE)
+plot_csrm('ARID1A',FALSE) # Data not overlayed
+plot_csrm('ARID1A',TRUE)  # Data overlayed
 
 plot_data('ARID1B')
 plot_csrm('ARID1B',FALSE)
@@ -156,24 +156,6 @@ calc_varianceEstimate <- function(bootstrap_estimates){
   return(var/(length(bootstrap_estimates)-1));
 }
 
-# Reading in data
-df <- read.table("../data/cleanedData/ARID1A_filled.csv", 
-                 header = FALSE,
-                 sep = ",")
-freq_at_positions <- unlist(df['V2'])
-
-# Generating bootstrap Means
-bs_means <- bootstrap_mean(freq_at_positions,1000) 
-bs_means_sorted <- sort(bs_means) 
-
-# Estimate mean and variance
-bs_meanEst <- mean(bs_means)                          # 0.008270824
-bs_varEst <- calc_varianceEstimate(bs_means_sorted);  # 2.620954e-07
-
-# Calculating Bootstrap-t C.I. of 95%
-bl <- mean(as.numeric(freq_at_positions)) - (bs_meanEst - bs_means_sorted[25]) * bs_varEst;   # 0.008266815
-bu <- mean(as.numeric(freq_at_positions)) + (bs_means_sorted[975] - bs_meanEst) * bs_varEst;  # 0.008266816
-
 # Plots observed data, @sample: name of sample (E.g. ARID1A)
 generate_bootstrapStatistics <- function(sample){
   # Reading in data
@@ -202,3 +184,21 @@ generate_bootstrapStatistics <- function(sample){
 generate_bootstrapStatistics('ARID1A')
 generate_bootstrapStatistics('ARID1B')
 generate_bootstrapStatistics('ARID2')
+
+# Reading in data
+# ECDF Creation
+plot_ecdf <- function(sample){
+  df <- read.table(sprintf("../data/cleanedData/%s_filled.csv", sample),
+                   header = FALSE,
+                   sep = ",")  
+  freq <- unlist(df['V2'])
+  l <- length(freq)
+  
+  saltus <- seq(from = 1/l, to = 1, by = 1/l)
+  plot(sort(freq), saltus, main=sprintf("ECDF Plot - %s",sample),
+       ylab="ECDF(x)",xlab="x")
+}
+
+plot_ecdf('ARID1A')
+plot_ecdf('ARID1B')
+plot_ecdf('ARID2')
