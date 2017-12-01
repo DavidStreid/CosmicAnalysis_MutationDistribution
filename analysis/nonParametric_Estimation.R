@@ -2,8 +2,7 @@
 setwd('PATH/TO/CosmicAnalysis_MutationDistribution/analysis')
 
 # UTILITY FUNCTIONS
-
-# DESC: Reads in data
+# read_data: Reads in data
 # @sample: ARID1A, ARID1B, ARID2; @filled: boolean - filled data or not
 read_data <- function(sample, filled){
   if(filled){
@@ -17,8 +16,7 @@ read_data <- function(sample, filled){
                       sep = ","))
   }
 }
-
-# Makes histogram with set number of bins
+# make_hist: Makes histogram with set number of bins
 # @data: Input data, @nBins: Number of bins
 make_hist <- function(data, sample, nBins){
   minVal <- min(data);
@@ -29,12 +27,12 @@ make_hist <- function(data, sample, nBins){
        main=sprintf("Histogram - %s", sample))
 }
 
+# CSRM Functions
 # Plots observed data, @sample: name of sample (E.g. ARID1A)
-plot_data <- function(sample){
+# @sample: sample data to be plotted, @filled: Missing data points filled in (with 0)
+plot_data <- function(sample, filled){
   # Reading in Data
-  df <- read.table(sprintf("../data/cleanedData/%s.csv", sample), 
-                   header = FALSE,
-                   sep = ",")
+  df <- read_data(sample, filled)
   smooth_x <- unlist(df['V1'])
   smooth_y <- unlist(df['V2'])
   yLim = c(0,max(smooth_y))
@@ -88,10 +86,11 @@ cvrss <- function(obs_y, est_y, k){
   return(cvrss/n);
 }
 
-# Plots the smoother with optimal span & returns optimal k
+# Plots CVRSS to determine optimal k value
 # @obs_y: Observed response variables
-# @mean: boolean (T -> Mean, F -> Median)
-plot_cvrss <- function(obs_y,mean){
+# @mean: boolean (T -> Mean, F -> Median) when calculating CSRM
+# @plot_graph: boolean (T -> Plot, F -> Don't Plot)
+plot_cvrss <- function(obs_y,mean,plot_graph){
   cvrss_vals <- vector(mode="numeric", length=0);
   k_vals <- vector(mode="numeric", length=0);
   min_cvrss <- 9999;
@@ -118,20 +117,24 @@ plot_cvrss <- function(obs_y,mean){
   # Output best k
   print(min_cvrss);
   print(min_k);
-  plot(k_vals,cvrss_vals,ylab='spans',main='CVRSS v. k spans');
+  if(plot_graph){
+    plot(k_vals,cvrss_vals,ylab='spans',main='CVRSS v. k spans');  
+  }
   return(min_k);
 }
 
-plot_csrm <- function(sample, overlay){
+# Plots the smoother with optimal span & returns optimal k
+# @obs_y: Observed response variables
+# @mean: boolean (T -> Mean, F -> Median)
+plot_csrm <- function(sample, overlay, filled){
   # Reading in Data
-  df <- read.table(sprintf("../data/cleanedData/%s.csv", sample), 
-                   header = FALSE,
-                   sep = ",")
+  df <- read_data(sample,filled)
+  
   smooth_x <- unlist(df['V1'])
   smooth_y <- unlist(df['V2'])
   
-  # Optimizing Constant-Span Running Mean
-  opt_k <- plot_cvrss(smooth_y,TRUE) 
+  # Optimizing Constant-Span Running Mean (Don't Plot)
+  opt_k <- plot_cvrss(smooth_y,TRUE,FALSE) 
   est_y <- csrm(smooth_y,opt_k)
   yLim = c(0,max(smooth_y))
   
@@ -146,19 +149,31 @@ plot_csrm <- function(sample, overlay){
   }
 }
 
-plot_data('ARID1A')
-plot_csrm('ARID1A',FALSE) # Data not overlayed
-plot_csrm('ARID1A',TRUE)  # Data overlayed
+# (sample, filled)
+plot_data('ARID1A', FALSE)        
+plot_data('ARID1A', TRUE)
 
-plot_data('ARID1B')
-plot_csrm('ARID1B',FALSE)
-plot_csrm('ARID1B',TRUE)
+plot_data('ARID1B', FALSE)        
+plot_data('ARID1B', TRUE)
 
-plot_data('ARID2')
-plot_csrm('ARID2',FALSE)
-plot_csrm('ARID2',TRUE)
+plot_data('ARID2', FALSE)        
+plot_data('ARID2', TRUE)
 
+# (sample, overlay, filled)
+plot_csrm('ARID1A',FALSE,TRUE)    # FILLED      NOT OVERLAYED
+plot_csrm('ARID1A',TRUE,TRUE)     #             OVERLAYED
+plot_csrm('ARID1A',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
+plot_csrm('ARID1A',TRUE,FALSE)    #             OVERLAYED
 
+plot_csrm('ARID1B',FALSE,TRUE)    # FILLED      NOT OVERLAYED
+plot_csrm('ARID1B',TRUE,TRUE)     #             OVERLAYED
+plot_csrm('ARID1B',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
+plot_csrm('ARID1B',TRUE,FALSE)    #             OVERLAYED
+
+plot_csrm('ARID2',FALSE,TRUE)    # FILLED      NOT OVERLAYED
+plot_csrm('ARID2',TRUE,TRUE)     #             OVERLAYED
+plot_csrm('ARID2',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
+plot_csrm('ARID2',TRUE,FALSE)    #             OVERLAYED
 
 
 # NON-PARAMETRIC BOOTSTRAPPING
