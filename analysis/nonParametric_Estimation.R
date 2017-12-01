@@ -1,6 +1,34 @@
 # ADD RELATIVE PATH
 setwd('PATH/TO/CosmicAnalysis_MutationDistribution/analysis')
 
+# UTILITY FUNCTIONS
+
+# DESC: Reads in data
+# @sample: ARID1A, ARID1B, ARID2; @filled: boolean - filled data or not
+read_data <- function(sample, filled){
+  if(filled){
+    return(read.table(sprintf("../data/cleanedData/%s_filled.csv", sample), 
+                      header = FALSE,
+                      sep = ","))
+  }
+  else{
+    return(read.table(sprintf("../data/cleanedData/%s.csv", sample), 
+                      header = FALSE,
+                      sep = ","))
+  }
+}
+
+# Makes histogram with set number of bins
+# @data: Input data, @nBins: Number of bins
+make_hist <- function(data, sample, nBins){
+  minVal <- min(data);
+  maxVal <- max(data);
+  print(maxVal);
+  interval <- ((maxVal-minVal)/nBins);
+  hist(data, breaks=seq(minVal,maxVal,interval),
+       main=sprintf("Histogram - %s", sample))
+}
+
 # Plots observed data, @sample: name of sample (E.g. ARID1A)
 plot_data <- function(sample){
   # Reading in Data
