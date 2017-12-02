@@ -1,5 +1,5 @@
 # ADD RELATIVE PATH
-setwd('PATH/TO/CosmicAnalysis_MutationDistribution/analysis')
+setwd('/Users/Bike_Thoughts/Documents/JHU_courses/CompStatistics/project/CosmicAnalysis_MutationDistribution/analysis')
 
 # UTILITY FUNCTIONS
 # read_data: Reads in data
@@ -185,9 +185,9 @@ arid1b_filled_freq <- arid1b_filled['V2'];
 arid2_filled_freq <- arid2_filled['V2'];
 
 # DENSITY GRPHS
-plot(density(unlist(arid1a_filled_freq)));
-plot(density(unlist(arid1b_filled_freq)));
-plot(density(unlist(arid2_filled_freq)));
+plot(density(unlist(arid1a_filled_freq)), main='ARID1A Density');
+plot(density(unlist(arid1b_filled_freq)), main='ARID1B Density');
+plot(density(unlist(arid2_filled_freq)), main='ARID2 Density');
 
 # PERMUTATION TESTS
 # permute_test: Runs n re-samplings to conduct permutation test w/ confidence intervals
@@ -239,9 +239,9 @@ permute_test <- function(data1,data2,n){
 }
 
 # Run permutation tests
-permute_test(arid1a_filled_freq, arid1b_filled_freq, 1000);
-permute_test(arid1a_filled_freq, arid2_filled_freq, 1000);
-permute_test(arid1b_filled_freq, arid2_filled_freq, 1000);
+permute_test(unlist(arid1a_filled_freq), unlist(arid1b_filled_freq), 1000);
+permute_test(unlist(arid1a_filled_freq), unlist(arid2_filled_freq), 1000);
+permute_test(unlist(arid1b_filled_freq), unlist(arid2_filled_freq), 1000);
 
 # NON-PARAMETRIC BOOTSTRAPPING
 # Takes empirical data and desired number of t statistics
