@@ -149,32 +149,31 @@ plot_csrm <- function(sample, overlay, filled){
   }
 }
 
-# (sample, filled)
-#plot_data('ARID1A', FALSE)        
-#plot_data('ARID1A', TRUE)
+# Plotting the observed data w/ & w/o 0-Frequency points
+plot_data('ARID1A', FALSE)        
+plot_data('ARID1A', TRUE)
 
-# plot_data('ARID1B', FALSE)        
-# plot_data('ARID1B', TRUE)
+plot_data('ARID1B', FALSE)        
+plot_data('ARID1B', TRUE)
 
-# plot_data('ARID2', FALSE)        
-# plot_data('ARID2', TRUE)
+plot_data('ARID2', FALSE)        
+plot_data('ARID2', TRUE)
 
-# (sample, overlay, filled)
-#plot_csrm('ARID1A',FALSE,TRUE)    # FILLED      NOT OVERLAYED
-#plot_csrm('ARID1A',TRUE,TRUE)      #             OVERLAYED
-#plot_csrm('ARID1A',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
-#plot_csrm('ARID1A',TRUE,FALSE)    #             OVERLAYED
+# Plotting CSRM overlayed with observations w/ & w/o 0-Frequency points
+plot_csrm('ARID1A',FALSE,TRUE)    # FILLED      NOT OVERLAYED
+plot_csrm('ARID1A',TRUE,TRUE)     #             OVERLAYED
+plot_csrm('ARID1A',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
+plot_csrm('ARID1A',TRUE,FALSE)    #             OVERLAYED
 
-# plot_csrm('ARID1B',FALSE,TRUE)    # FILLED      NOT OVERLAYED
-# plot_csrm('ARID1B',TRUE,TRUE)     #             OVERLAYED
-#plot_csrm('ARID1B',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
-#plot_csrm('ARID1B',TRUE,FALSE)    #             OVERLAYED
+plot_csrm('ARID1B',FALSE,TRUE)    # FILLED      NOT OVERLAYED
+plot_csrm('ARID1B',TRUE,TRUE)     #             OVERLAYED
+plot_csrm('ARID1B',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
+plot_csrm('ARID1B',TRUE,FALSE)    #             OVERLAYED
 
-ARID1BFilled_fit
-plot_csrm('ARID2',FALSE,TRUE)    # FILLED      NOT OVERLAYED
-plot_csrm('ARID2',TRUE,TRUE)     #             OVERLAYED
-#plot_csrm('ARID2',FALSE,FALSE)   # NOT FILLED  NOT OVERLAYED
-#plot_csrm('ARID2',TRUE,FALSE)    #             OVERLAYED
+plot_csrm('ARID2',FALSE,TRUE)     # FILLED      NOT OVERLAYED
+plot_csrm('ARID2',TRUE,TRUE)      #             OVERLAYED
+plot_csrm('ARID2',FALSE,FALSE)    # NOT FILLED  NOT OVERLAYED
+plot_csrm('ARID2',TRUE,FALSE)     #             OVERLAYED
 
 # DENSITY ANALYSIS
 arid1a_filled <- read_data('ARID1A',TRUE);
@@ -239,7 +238,7 @@ permute_test <- function(data1,data2,n){
   return(c(percentile1,percentile2));
 }
 
-
+# Run permutation tests
 permute_test(arid1a_filled_freq, arid1b_filled_freq, 1000);
 permute_test(arid1a_filled_freq, arid2_filled_freq, 1000);
 permute_test(arid1b_filled_freq, arid2_filled_freq, 1000);
@@ -256,7 +255,7 @@ bootstrap_mean <- function(data,n){
   return(b_means);
 }
 
-# calculates variance
+# calc_varianceEstimate: calculates variance
 # @bootstrap_estimates: bootstrap estimates of mean
 calc_varianceEstimate <- function(bootstrap_estimates){
   trueEstimate <- mean(bootstrap_estimates);
@@ -267,7 +266,8 @@ calc_varianceEstimate <- function(bootstrap_estimates){
   return(var/(length(bootstrap_estimates)-1));
 }
 
-# Plots observed data, @sample: name of sample (E.g. ARID1A)
+# generate_bootstrapStatistic: Derives bootstrap statistics
+# @sample: name of sample (E.g. ARID1A)
 generate_bootstrapStatistics <- function(sample){
   # Reading in data
   df <- read.table(sprintf("../data/cleanedData/%s_filled.csv", sample), 
@@ -292,12 +292,13 @@ generate_bootstrapStatistics <- function(sample){
   print(sprintf("Bootstrap .95 Confidence Interval: [%f,%f]", bl, bu));
 }
 
+# Generate bootstrap statistics
 generate_bootstrapStatistics('ARID1A')
 generate_bootstrapStatistics('ARID1B')
 generate_bootstrapStatistics('ARID2')
 
-# Reading in data
-# ECDF Creation
+# plot_ecdf: ECDF Creation
+# @sample: sample data
 plot_ecdf <- function(sample){
   df <- read.table(sprintf("../data/cleanedData/%s_filled.csv", sample),
                    header = FALSE,
@@ -310,6 +311,7 @@ plot_ecdf <- function(sample){
        ylab="ECDF(x)",xlab="x")
 }
 
+# Plot ECDF
 plot_ecdf('ARID1A')
 plot_ecdf('ARID1B')
 plot_ecdf('ARID2')
