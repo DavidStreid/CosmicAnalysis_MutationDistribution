@@ -1,5 +1,5 @@
 # ADD RELATIVE PATH
-setwd('/Users/Bike_Thoughts/Documents/JHU_courses/CompStatistics/project/CosmicAnalysis_MutationDistribution/analysis')
+setwd('PATH/TO/CosmicAnalysis_MutationDistribution/analysis')
 
 # UTILITY FUNCTIONS
 # read_data: Reads in data
